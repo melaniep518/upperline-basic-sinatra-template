@@ -1,1 +1,36 @@
-<h1> This is a view </h1>
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>NYC Spirit Animal</title>
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">-->
+    </head>
+    <body>
+        <h1>Find your NYC Spirit Animal</h1>
+        <form method="POST" action="results">
+            <p>What is your favorite food?</p>
+                <input name="food" type="radio" value="1" > Hot Dog<br>
+                <input name="food" type="radio" value="2" > Pizza<br>
+                <input name="food" type="radio" value="3" > Bagel<br>
+            <p> What borough do you live in?</p>
+                <input name="boro" type="radio" value="4" /> Manhattan<br>
+                <input name="boro" type="radio" value="3" /> Brooklyn<br>
+                <input name="boro" type="radio" value="1" /> Queens<br>
+                <input name="boro" type="radio" value="2" /> Bronx<br>
+                <input name="boro" type="radio" value="0" /> Staten Island<br>
+            <p>What sort of dwelling to you reside in?</p>
+                <input name="home" type="radio" value="2" /> Walk-up<br>
+                <input name="home" type="radio" value="1" /> House<br>
+                <input name="home" type="radio" value="3" /> Elevator<br>
+            <p>How many roommates do you have?</p>
+                <input name="roommates" type="radio" value="1" /> I have no roomies. <br>
+                <input name="roommates" type="radio" value="2" /> Just one, dude. <br>
+                <input name="roommates" type="radio" value="3" /> Two or more, how do you think I afford NYC?<br>
+            <p>It's rush hour in Herald Square. As the Q train pulls up you can see there is one seat available and you think you can get to it. Do you:</p>
+                <input name="subway" type="radio" value="2" />Stand and allow another passenger to sit.<br>
+                <input name="subway" type="radio" value="1" />Wait for a second, and if no one takes it go for it.<br>
+                <input name="subway" type="radio" value="3" />Throw dem 'bows.<br>
+            <button type="submit"> Click here to find your spirit animal!</button>
+        </form>
+    </body>
+</html>
